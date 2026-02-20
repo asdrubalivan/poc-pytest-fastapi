@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy>=2
+asyncpg
+pytest
+pytest-xdist
+pytest-asyncio
+httpx
+asgi-lifespan
+anyio
+python-dotenv
+filelock
+greenlet
