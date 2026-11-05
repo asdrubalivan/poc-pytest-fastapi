@@ -54,3 +54,5 @@ bash scripts/benchmark.sh
 2. `DROP DATABASE (FORCE)` works smoothly on PG 13+, but must not be chained within an active transaction block so we set `isolation_level="AUTOCOMMIT"`.
 3. Worker logging is helpful to visually inspect `test_<uid>_gw0` creation/dropping behavior.
 4. With pytest-asyncio auto mode, ensuring `scope="session"` for fixtures matches up nicely. `pytest.mark.anyio` works easily by passing the `anyio_backend` fixture.
+
+Built by [Asdrúbal Suárez](https://asdrubalivan.com).
